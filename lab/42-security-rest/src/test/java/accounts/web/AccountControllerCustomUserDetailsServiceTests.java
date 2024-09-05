@@ -45,7 +45,7 @@ public class AccountControllerCustomUserDetailsServiceTests {
     private AccountService accountService;
 
     @Test
-    @Disabled
+//    @Disabled
     @WithUserDetails("joe")
     public void accountDetails_with_joe_credentials_should_return_200() throws Exception {
 
@@ -63,7 +63,7 @@ public class AccountControllerCustomUserDetailsServiceTests {
     }
 
     @Test
-    @Disabled
+//    @Disabled
     @WithUserDetails("mary")
     public void accountDetails_with_mary_credentials_should_return_200() throws Exception {
 
